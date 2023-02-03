@@ -2,12 +2,16 @@
 <html lang="es">
 <head>
    <title>Ejercicio banco</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
    <style>
         *   {
             box-sizing: border-box;
-            } 
+            }         
         body{           
             margin: 0px;
+            font-family: 'Montserrat', sans-serif;
             } 
         header.main-header {      
             background-color: #2ddf5c; 
@@ -17,29 +21,49 @@
             }
         li.main-nav-item {
             display:inline-block;
+            font-style: #0e4f1f;
+            font: bold;
+            text-decoration:none;
+            font-size: larger;
             } 
-        ul.main-nav_items {
+        ul.main-nav-items {
             display:inline-block;
+            margin: 0;
+            padding: 0; 
+            list-style: none;
             } 
         nav.main-nav {
             display:inline-block;
+            width: calc(100% - 49px);
+            text-align: right;
+            vertical-align:middle
+            }
+        h1.main-header-brand {
+            color: #0e4f1f;
+            text-decoration: none;            
+            font-weight: bold;
+            font-size: 22px;
+            }
+        .main-header > div {
+            vertical-align:middle
             }
           </style>
    </head>
 <body>
     <header class="main-header">
     <div>
-    <h1>Banco</h1>
+        <img src="../IMG/logo.png" alt="Logo del Banco">
+        <h1 class="h1.main-header-brand">Banco</h1>
+    </div>
         <nav class="main-nav">
-            <ul class="main-nav_items">
-                <li class="main-nav-item">Elemento 1</li>
-                <li class="main-nav-item">Elemento 2</li>
-                <li class="main-nav-item">Elemento 3</li>
-                <li class="main-nav-item">Elemento 4</li>
-                <li class="main-nav-item">Elemento 5</li>
+            <ul class="main-nav-items">
+                <li class="main-nav-item" a href="https://github.com/PacoBarni/fullstack">Inicio</li>
+                <li class="main-nav-item" a href="https://github.com/PacoBarni/fullstack">Contacto</li>
+                <li class="main-nav-item" a href="https://github.com/PacoBarni/fullstack">Servicio</li>
+                <li class="main-nav-item" a href="https://github.com/PacoBarni/fullstack">Incio 2</li>
+                <li class="main-nav-item" a href="https://github.com/PacoBarni/fullstack">Inicio 3</li>
             </ul>
         </nav>
-    </div>
-</header>
+    </header>
 </body>
 </html>
