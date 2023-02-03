@@ -5,9 +5,10 @@
    <style>
         *   {
             box-sizing: border-box;
-            } 
+            }         
         body{           
             margin: 0px;
+            font-family:mo;
             } 
         header.main-header {      
             background-color: #2ddf5c; 
@@ -18,25 +19,37 @@
         li.main-nav-item {
             display:inline-block;
             } 
-        ul.main-nav_items {
+        ul.main-nav-items {
             display:inline-block;
+            margin: 0;
+            padding: 0; 
+            list-style: none;
             } 
         nav.main-nav {
             display:inline-block;
+            width: calc(100% - 49px);
+            text-align: right;
+            }
+        h1.main-header-brand {
+            color: #0e4f1f;
+            text-decoration: none;            
+            font-weight: bold;
+            font-size: 22px;
             }
           </style>
    </head>
 <body>
     <header class="main-header">
     <div>
-    <h1>Banco</h1>
+        <img src="../IMG/logo.png" alt="Logo del Banco">
+        <h1 class="h1.main-header-brand">Banco</h1>
         <nav class="main-nav">
-            <ul class="main-nav_items">
-                <li class="main-nav-item">Elemento 1</li>
-                <li class="main-nav-item">Elemento 2</li>
-                <li class="main-nav-item">Elemento 3</li>
-                <li class="main-nav-item">Elemento 4</li>
-                <li class="main-nav-item">Elemento 5</li>
+            <ul class="main-nav-items">
+                <li class="main-nav-item">Inicio</li>
+                <li class="main-nav-item">Contacto</li>
+                <li class="main-nav-item">Servicio</li>
+                <li class="main-nav-item">Incio 2</li>
+                <li class="main-nav-item">Inicio 3</li>
             </ul>
         </nav>
     </div>

@@ -2,33 +2,44 @@
 <html lang="es">
 <head>
    <title>Ejercicio banco</title>
-   <header>
    <style>
-        div {
-            text-align: center;            
-            width: 50%; 
-            padding: 10px; 
-            border: 8px solid rgb(157, 247, 106); 
-            margin: 40px;
-            background-color: rgb(232, 182, 167);
-            } 
-        body {        
-            width: 300px;
-            padding: 25px;  
+        *   {
             box-sizing: border-box;
-            background-color: rgb(225, 245, 136);
+            } 
+        body{           
             margin: 0px;
             } 
-   </style>
-   <div>Banco</div>
-    </header>
-    </head>
+        header.main-header {      
+            background-color: #2ddf5c; 
+            width: 100%;
+            padding: 8px 16px;
+            display:inline-block;
+            }
+        li.main-nav-item {
+            display:inline-block;
+            } 
+        ul.main-nav_items {
+            display:inline-block;
+            } 
+        nav.main-nav {
+            display:inline-block;
+            }
+          </style>
+   </head>
 <body>
-    <nav><ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-      </ul>
-    </nav>
+    <header class="main-header">
+    <div>
+    <h1>Banco</h1>
+        <nav class="main-nav">
+            <ul class="main-nav_items">
+                <li class="main-nav-item">Elemento 1</li>
+                <li class="main-nav-item">Elemento 2</li>
+                <li class="main-nav-item">Elemento 3</li>
+                <li class="main-nav-item">Elemento 4</li>
+                <li class="main-nav-item">Elemento 5</li>
+            </ul>
+        </nav>
+    </div>
+</header>
 </body>
 </html>
