@@ -44,17 +44,17 @@ else {
 
 // Ejercicio 5
 
-const numero2= 37;
-const numero3= 93;
-const numero4= 33;
+const numero2= 107;
+const numero3= 133;
+const numero4= 133;
 
-if (numero2 > numero3 & numero4) {
-    console.log(`El número ${numero2} es el mayor de todos`);
-    }
-else if (numero3 > numero2 & numero4) {
+if (numero2>numero3 && numero2>numero4) {   
+        console.log(`El número ${numero2} es el mayor de todos`);
+        } 
+        else if (numero3>numero4) {
         console.log(`El número ${numero3} es el mayor de todos`);
         }
-else {
+        else {
         console.log(`El número ${numero4} es el mayor de todos`);
     }
 

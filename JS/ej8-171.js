@@ -1,19 +1,56 @@
-// Ejercicio 8
+// Ejercicio Switch
 
-for (let i = 0; i < 51; i++) {
-console.log(i);
+const fecha = new Date();
+let dia= fecha.getDay();
+let mes= fecha.getMonth();
+
+switch (dia) {
+    case 1:
+        dia = "Lunes";
+        break;
+    case 2:
+        dia = "Lunes";
+        break;
+    case 3:
+        dia = "Miércoles";
+        break;
+    case 4:
+        dia = "Lunes";
+        break;
+    case 5:
+        dia = "Lunes";
+        break;
+    case 6:
+        dia = "Lunes";
+        break;
+    case 0:
+        dia = "Lunes";
+        break;
 }
 
-// Ejercicio 9
+switch (mes) {
+    case 0:
+        mes = "Enero"
+        break;
+    case 1:
+        mes = "Febrero"
+        break;
+    case 2:
+        mes = "Enero"
+        break;
+    case 3:
+        mes = "Enero"
+        break;
+    case 4:
+        mes = "Enero"
+        break;
+    case 5:
+        mes = "Enero"
+        break;
+    case 6,7,8,9,10,11:
+        mes = "Enero"
+        break;
+}
 
-let j= 5;
-let k=0;
-for ( k < 11; k++, j*k;) {
-    console.log(i);
-    }
+console.log("Hoy es un "+ dia +" de " + mes);
 
-// Ejercicio 10
-<script>
-const palabra = prompt ("Escriba una palabra que se repetirá 10 veces");
-console.log(palabra);
-</script>

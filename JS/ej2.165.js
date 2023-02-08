@@ -1,7 +1,7 @@
-const str1 = 'Hello';
-const str2 = str1 + 'World';
+let str1 = 'Hello';
+let str2 = str1 + 'World';
+let tres = '2';
+let cuatro = '3';
 console.log(str2);
-const tres = '2';
-const cuatro = '3';
-console.log(String(const tres * const str4));
-console.log(+const str3 * +const str4);
+console.log(String(let tres * let cuatro));
+console.log(+let str3 * +let str4);
