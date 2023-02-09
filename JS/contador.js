@@ -3,3 +3,4 @@ while (contador1 <= 5) {
 contador1++;
 console.log(contador1);
 }
+

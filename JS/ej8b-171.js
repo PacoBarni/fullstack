@@ -20,5 +20,15 @@ for (let k = 0; k <= 10; k++) {
 
 let nombre = prompt("Escriba una palabra que será repetida 10 veces");
     for (let a=0; a <10; a++);
-    console.log(i+1 + "." + nombre);
+    console.log(a + 1 + "." + nombre);
+
+// Ejercicio 11
+
+let numero = prompt("Escriba un número entero positivo para realizar una cuenta atrás hasta 0");
+    for (let b=numero; b>=0; b--) {
+        if (b>0) {
+            document.write(b + ",");
+        } else  { document.write(b);
+        }
+    }
 
