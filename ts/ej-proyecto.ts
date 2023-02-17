@@ -1,13 +1,13 @@
 //Ejercicio 1 de Proyecto
-let gestor1: { 
-    nombre: string;
+let gestor1: = string | number | true;
+    nombre: string = ;
     dinero: number;
     numero: string;
 }
 let cliente1: {
-    nombre: string;
-    numCuenta: any;
-    saldoDisponible: number;
+    nombre: string,
+    numCuenta: number,
+    saldoDisponible: number,
 };
 let mensaje1: {
     emisor: string;
